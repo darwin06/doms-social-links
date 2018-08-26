@@ -1,0 +1,69 @@
+:root {
+  --cu: #777777;
+  --fb: #3b5998;
+  --tw: #1da1f2;
+  --yt: #ff0000;
+  --in: #e1306c;
+}
+
+.doms-social-links-wrap {
+  margin-bottom: 1.25rem;
+}
+
+.doms-social-links-wrap .doms-social-links-containers {
+  margin-bottom: -24px;
+}
+
+.doms-social-links-wrap .btn,
+.doms-social-links-wrap .btn:visited {
+  color: white;
+}
+
+.doms-social-links-wrap .cu { 
+  background-color: var(--cu);
+  border-color:var(--cu);
+}
+
+.doms-social-links-wrap .fb { 
+  background-color: var(--fb);
+  
+  border-color:var(--fb);
+}
+.doms-social-links-wrap .tw { 
+  background-color: var(--tw);
+  border-color:var(--tw);
+}
+
+.doms-social-links-wrap .yt { 
+  background-color: var(--yt);
+  border-color:var(--yt);
+}
+
+.doms-social-links-wrap .in { 
+  background-color: var(--in);
+  border-color:var(--in);
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: .75rem;
+}
