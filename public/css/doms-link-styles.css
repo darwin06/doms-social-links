@@ -10,36 +10,39 @@
   margin-bottom: 1.25rem;
 }
 
-.doms-social-links-wrap .doms-social-links-containers {
-  margin-bottom: -24px;
-}
+/* .doms-social-links-wrap .doms-social-links-containers {
+} */
 
 .doms-social-links-wrap .btn,
 .doms-social-links-wrap .btn:visited {
   color: white;
+  margin-right: 0.5rem;
+  width: 32px;
+  height: 32px;
+  line-height: 1.75;
 }
 
-.doms-social-links-wrap .cu { 
+.doms-social-links-wrap .cu {
   background-color: var(--cu);
   border-color:var(--cu);
 }
 
-.doms-social-links-wrap .fb { 
+.doms-social-links-wrap .fb {
   background-color: var(--fb);
-  
+
   border-color:var(--fb);
 }
-.doms-social-links-wrap .tw { 
+.doms-social-links-wrap .tw {
   background-color: var(--tw);
   border-color:var(--tw);
 }
 
-.doms-social-links-wrap .yt { 
+.doms-social-links-wrap .yt {
   background-color: var(--yt);
   border-color:var(--yt);
 }
 
-.doms-social-links-wrap .in { 
+.doms-social-links-wrap .in {
   background-color: var(--in);
   border-color:var(--in);
 }
